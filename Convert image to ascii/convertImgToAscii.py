@@ -54,7 +54,7 @@ def main():
         )
         return
 
-    image_resized = resizeImage(image, new_width=120)
+    image_resized = resizeImage(image, new_width=180)
     ascii_art = mappingPixelsToAscii(image_resized, CARACTERES_ASCII)
     saveArt(ascii_art)
 
