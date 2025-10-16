@@ -95,5 +95,5 @@ class HanoiGame:
 
 
 if __name__ == "__main__":
-    game = HanoiGame(num_disks=3)
+    game = HanoiGame(num_disks=5)
     game.run()
